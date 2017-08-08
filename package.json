@@ -51,7 +51,8 @@
     "gen:docs": "node scripts/generateComponentData.js",
     "gen:docs-watch": "npm run gen:docs -- --watch",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "format": "standard --fix --parser babel-eslint src/**/*.js"
   },
   "jest": {
     "collectCoverageFrom": [
