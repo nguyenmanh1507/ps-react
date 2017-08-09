@@ -96,7 +96,10 @@
   },
   "devDependencies": {
     "chokidar": "^1.7.0",
+    "enzyme": "^2.9.1",
     "npm-run-all": "^4.0.2",
-    "react-docgen": "^2.17.0"
+    "react-addons-test-utils": "^15.6.0",
+    "react-docgen": "^2.17.0",
+    "react-test-renderer": "^15.6.1"
   }
 }
